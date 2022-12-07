@@ -163,7 +163,7 @@ For any kind of help join [our support group](https://t.me/stufsupport) or raise
 
 ## ✨ <a name="credits"></a>Credits
 
-- [AsmSafone](https://github.com/AsmSafone) for [Noting](https://github.com/AsmSafone/MusicPlayer) 😬
+- [AsmSafone](https://github.com/AsmSafone) for [Music](https://github.com/AsmSafone/MusicPlayer) 😬
 - [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram) ❤️
 - [Laky-64](https://github.com/Laky-64) for [Py-TgCalls](https://github.com/pytgcalls/pytgcalls) ❤️
 - And Thanks To All [Contributors](https://github.com/senpai80/Music-Userbot/graphs/contributors)! ❤️
