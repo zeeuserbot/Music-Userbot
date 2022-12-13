@@ -58,6 +58,13 @@ else:
 @handle_error
 async def repo(_, message: Message):
     await message.reply_text(REPO, disable_web_page_preview=True)
+    
+@client.on_message(
+    filters.command("riz", config.PREFIXES) & ~filters.bot & ~filters.edited
+)
+@handle_error
+async def riz(_, message: Message):
+    await message.reply_text(f"×͜×**Musik Ready Bos Kyuh")
 
 
 @client.on_message(
@@ -65,7 +72,7 @@ async def repo(_, message: Message):
 )
 @handle_error
 async def ping(_, message: Message):
-    await message.reply_text(f"🤖 **Pong!**\n`{await pytgcalls.ping} ms`")
+    await message.reply_text(f"✪ **Doorrr!**\n`{await pytgcalls.ping} ms`")
 
 
 @client.on_message(
