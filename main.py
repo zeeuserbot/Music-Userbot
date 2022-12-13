@@ -64,7 +64,7 @@ async def repo(_, message: Message):
 )
 @handle_error
 async def riz(_, message: Message):
-    await message.reply_text(f"×͜×**Musik Ready Bos Kyuh")
+    await message.reply_text(f"×͜× **Musik Ready Bos Kyuh")
 
 
 @client.on_message(
